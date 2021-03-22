@@ -2,7 +2,7 @@
 
 The YouTube Text-To-Speech dataset is comprised of waveform audio extracted from YouTube videos alongside their English transcriptions
 
-`videos.txt` is a text file that consists of concatenated YouTube video IDs:
+`videos.txt` is a text file that consists of concatenated YouTube video IDs. YouTube video URLs use the format `https://www.youtube.com/watch?v=<video-id>`, for example:
 
 > [https://www.youtube.com/watch?v=`BRRolKTlF6Q`](https://www.youtube.com/watch?v=BRRolKTlF6Q)
 
