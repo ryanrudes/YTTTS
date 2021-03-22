@@ -18,6 +18,9 @@ with open('videos.txt', 'r') as f:
 `scrape.py` scrapes YouTube video IDs and continuously appends them to the file `videos.txt`. \
 Once you are satisfied with the quanitity that has been scraped (or you may simply use the preprovided list of video IDs), running `main.py` will iterate through the scraped videos and download both the audio and captions from each video. It will then extract the videos subtitles and their corresponding audio clips, which are parsed from a `.srt` file, and organize a tree of subdirectories within each video's data folder. Each subdirectory contains both a text file containing the phrase uttered in the short audio clip (`subtitles.txt`), and the corresponding audio in waveform (`audio.wav`).
 
+<audio controls="controls">
+  <source type="audio/mp3" src="filename.mp3"></source>
+</audio>
 
 ## Uses
 * Voice Cloning
