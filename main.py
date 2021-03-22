@@ -71,7 +71,7 @@ queue = Queue(maxsize = workers)
 for i in range(workers):
     Thread(target = process).start()
 
-video_ids = open('/Volumes/Samsung T7 Touch/Ryan\'s iMac/New Drive/Users/markrudes/Downloads/youtube.txt', 'r')
+video_ids = open('videos.txt', 'r')
 
 while True:
     try:
