@@ -20,4 +20,4 @@ Once you are satisfied with the quanitity that has been scraped (or you may simp
 
 
 ## Download
-* [Download via Kaggle](https://www.kaggle.com/ryanrudes/yttts-speech/download)
+* [Download Sample via Kaggle](https://www.kaggle.com/ryanrudes/yttts-speech/download)
