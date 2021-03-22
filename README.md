@@ -18,6 +18,8 @@ with open('videos.txt', 'r') as f:
 `scrape.py` scrapes YouTube video IDs and continuously appends them to the file `videos.txt`. \
 Once you are satisfied with the quanitity that has been scraped (or you may simply use the preprovided list of video IDs), running `main.py` will iterate through the scraped videos and download both the audio and captions from each video. It will then extract the videos subtitles and their corresponding audio clips, which are parsed from a `.srt` file, and organize a tree of subdirectories within each video's data folder. Each subdirectory contains both a text file containing the phrase uttered in the short audio clip (`subtitles.txt`), and the corresponding audio in waveform (`audio.wav`).
 
+You can also try it out with the included file `LastWeekTonight.txt`, which contains the contatenated video IDs of every video posted on [John Oliver's Last Week Tonight's YouTube Channel](https://www.youtube.com/user/LastWeekTonight/videos) as of March 22, 2021.
+
 ## Some Demos via Google Drive
 * [Statistical Abstract of the United](https://drive.google.com/file/d/14zZ5Fxx2IagCg-QruMH6nUIOg7bdWBgZ/view?usp=sharing)
 * [this is not a good use of your time](https://drive.google.com/file/d/142TVXPnyMb6cjg45iNpPPZXXXe5Tk-5I/view?usp=sharing)
