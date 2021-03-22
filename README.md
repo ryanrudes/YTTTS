@@ -35,3 +35,4 @@ You can also try it out with the included file `LastWeekTonight.txt`, which cont
 
 ## Download
 * [Download Sample via Kaggle](https://www.kaggle.com/ryanrudes/yttts-speech/download)
+* [John Oliver Voice Dataset](https://www.kaggle.com/ryanrudes/johnoliver)
